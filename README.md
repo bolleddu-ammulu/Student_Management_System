@@ -31,7 +31,7 @@ Steps to execute:\
 5)Create a new database named student_management_system.\
 6)Open db_connect.php and update the database connection details (host, username, password, database name) to match your local environment.\
 7)Access your HTML forms by opening your web browser and navigate to http://localhost/student-management-system/.You should see the homepage of the Student Management System.\
-8)Submit the form to add a student, and view the records using http://localhost/student_management_system/display_students.php.You can see the data which should present in database.\
+8)Submit the form to add a student, and view the records using http://localhost/student_management_system/display_students.php.You can see the data which should present in database.
 
 # Common Errors and Solutions for XAMPP and MySQL
 
@@ -58,7 +58,7 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
 ?>
-\
+
 
 2. Updating MySQL Password in phpMyAdmin Configuration.\
 Error Message: "After installing XAMPP, open the folder xampp\phpMyAdmin\config.inc.php. After that, enter your MySQL password in place of $cfg['Servers'][$i]['password'] = 'yourpassword'; and $cfg['Servers'][$i]['controlpass'] = 'yourpassword';."
@@ -75,7 +75,7 @@ $cfg['Servers'][$i]['controlpass'] = 'yourpassword'; // Replace 'yourpassword' w
 
 
 3. MySQL Not Starting: Port Conflict or Configuration Issue\
-Error Message: "Another main error after clicking on the start button of MySQL in the control panel of XAMPP is unable to start. To fix this, click on the 'Config' button and select my.ini. After this opens in Notepad, enter your MySQL password and change the port number if necessary (e.g., 3307)."\
+Error Message: "Another main error after clicking on the start button of MySQL in the control panel of XAMPP is unable to start. To fix this, click on the 'Config' button and select my.ini. After this opens in Notepad, enter your MySQL password and change the port number if necessary (e.g., 3307)."
 
 Solution:\
 1)Open the XAMPP Control Panel.\
