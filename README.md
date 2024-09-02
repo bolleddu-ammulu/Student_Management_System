@@ -51,7 +51,7 @@ $password = "Your password";     // MySQL password
 $dbname = "student_management_system";
 
 // Create connection
-$conn = new mysqli($servername, $username, $password, $dbname);\
+$conn = new mysqli($servername, $username, $password, $dbname);
 
 // Check connection
 if ($conn->connect_error) {
@@ -86,7 +86,7 @@ ini code:
 1)[mysqld]
 port=3306\
 2)Change the port number if 3306 is being used by another application. For example:\
-port=3307
+port=3307\
 3)Save the my.ini file and close Notepad.\
 4)Restart MySQL from the XAMPP Control Panel.\
 5)If MySQL still doesn’t start, make sure the new port is not being used by another application and check that the port in phpMyAdmin settings matches the one defined in my.ini.
