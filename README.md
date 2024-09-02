@@ -1,11 +1,11 @@
 # Student Management System
 The Student Management System (SMS) is a web application designed to manage student records.\
 This project provides functionalities to add, delete, and view student information efficiently. It utilizes a MySQL database to store and manage data, and it is built using HTML, CSS, PHP, and MySQL.
-
+\
 Features:
-1)Add New Student: Allows users to add new student records to the database.
-2)Delete Student: Enables users to remove student records by ID.
-3)View Records: Provides a feature to display all student records in a table format.
+1)Add New Student: Allows users to add new student records to the database.\
+2)Delete Student: Enables users to remove student records by ID.\
+3)View Records: Provides a feature to display all student records in a table format.\
 
 Technologies Used:
 
