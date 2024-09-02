@@ -1,5 +1,5 @@
 # Student Management System
-The Student Management System (SMS) is a web application designed to manage student records.\\
+The Student Management System (SMS) is a web application designed to manage student records.\
 This project provides functionalities to add, delete, and view student information efficiently. It utilizes a MySQL database to store and manage data, and it is built using HTML, CSS, PHP, and MySQL.
 
 Features:
