@@ -2,11 +2,11 @@
 The Student Management System (SMS) is a web application designed to manage student records.\
 This project provides functionalities to add, delete, and view student information efficiently. It utilizes a MySQL database to store and manage data, and it is built using HTML, CSS, PHP, and MySQL.
 \
-Features:
+Features:\
 1)Add New Student: Allows users to add new student records to the database.\
 2)Delete Student: Enables users to remove student records by ID.\
 3)View Records: Provides a feature to display all student records in a table format.
-
+\
 Technologies Used:
 \
 Frontend:\
@@ -22,26 +22,26 @@ Development Tools:
 1)XAMPP or similar local server environment.\
 2)phpMyAdmin for database management.
 \
-Steps to execute:
-1)Install XAMPP/WAMP on your PC.
-2)Start the Apache and MySQL services.
-3)Place your PHP files in the htdocs folder (XAMPP/WAMP).
-4)Open phpMyAdmin (typically accessible via http://localhost/phpmyadmin/).
-5)Create a new database named student_management_system.
-6)Open db_connect.php and update the database connection details (host, username, password, database name) to match your local environment.
-7)Access your HTML forms by opening your web browser and navigate to http://localhost/student-management-system/.You should see the homepage of the Student Management System.
-8)Submit the form to add a student, and view the records using http://localhost/student_management_system/display_students.php.You can see the data which should present in database
+Steps to execute:\
+1)Install XAMPP/WAMP on your PC.\
+2)Start the Apache and MySQL services.\
+3)Place your PHP files in the htdocs folder (XAMPP/WAMP).\
+4)Open phpMyAdmin (typically accessible via http://localhost/phpmyadmin/).\
+5)Create a new database named student_management_system.\
+6)Open db_connect.php and update the database connection details (host, username, password, database name) to match your local environment.\
+7)Access your HTML forms by opening your web browser and navigate to http://localhost/student-management-system/.You should see the homepage of the Student Management System.\
+8)Submit the form to add a student, and view the records using http://localhost/student_management_system/display_students.php.You can see the data which should present in database.\
 
 # Common Errors and Solutions for XAMPP and MySQL
+\
+1. Database Connection Error: Incorrect Username or Password.\
+Error Message: "You must match the username and password for connecting to the database of MySQL."\
 
-1. Database Connection Error: Incorrect Username or Password
-Error Message: "You must match the username and password for connecting to the database of MySQL."
-
-Solution:
-1)Open your db_connect.php file.
-2)Ensure you have the correct MySQL username and password. By default, XAMPP uses:
-3)Your db_connect.php should look something like this:
-4)php code:
+Solution:\
+1)Open your db_connect.php file.\
+2)Ensure you have the correct MySQL username and password. By default, XAMPP uses:\
+3)Your db_connect.php should look something like this:\
+4)php code:\
 
 <?php
 $servername = "localhost";
