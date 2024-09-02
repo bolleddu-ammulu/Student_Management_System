@@ -26,7 +26,8 @@ Steps to execute:\
 1)Install XAMPP/WAMP on your PC.\
 2)Start the Apache and MySQL services.\
 3)Place your PHP files in the htdocs folder (XAMPP/WAMP).\
-4)Open phpMyAdmin (typically accessible via http://localhost/phpmyadmin/).\
+4)Open phpMyAdmin (typically accessible via http://localhost/phpmyadmin/).
+\
 5)Create a new database named student_management_system.\
 6)Open db_connect.php and update the database connection details (host, username, password, database name) to match your local environment.\
 7)Access your HTML forms by opening your web browser and navigate to http://localhost/student-management-system/.You should see the homepage of the Student Management System.\
@@ -43,41 +44,42 @@ Solution:\
 3)Your db_connect.php should look something like this:\
 4)php code:\
 
-<?php
-$servername = "localhost";
-$username = "root"; // Default MySQL username
-$password = "Your password";     // MySQL password
-$dbname = "student_management_system";
+<?php\
+$servername = "localhost";\
+$username = "root"; // Default MySQL username\
+$password = "Your password";     // MySQL password\
+$dbname = "student_management_system";\
 
-// Create connection
-$conn = new mysqli($servername, $username, $password, $dbname);
+// Create connection\
+$conn = new mysqli($servername, $username, $password, $dbname);\
 
-// Check connection
-if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
-}
+// Check connection\
+if ($conn->connect_error) {\
+    die("Connection failed: " . $conn->connect_error);\
+}\
 ?>
+\
 
-
-2. Updating MySQL Password in phpMyAdmin Configuration
+2. Updating MySQL Password in phpMyAdmin Configuration.\
 Error Message: "After installing XAMPP, open the folder xampp\phpMyAdmin\config.inc.php. After that, enter your MySQL password in place of $cfg['Servers'][$i]['password'] = 'yourpassword'; and $cfg['Servers'][$i]['controlpass'] = 'yourpassword';."
-
+\
 Solution:
-1)Go to xampp\phpMyAdmin directory.
-2)Open config.inc.php in a text editor (like Notepad).
-3)Update the lines for the password with your MySQL password:
+\
+1)Go to xampp\phpMyAdmin directory.\
+2)Open config.inc.php in a text editor (like Notepad).\
+3)Update the lines for the password with your MySQL password:\
 4)php code:
+\
+$cfg['Servers'][$i]['password'] = 'yourpassword'; // Replace 'yourpassword' with your actual MySQL password\
+$cfg['Servers'][$i]['controlpass'] = 'yourpassword'; // Replace 'yourpassword' with your actual MySQL password\
 
-$cfg['Servers'][$i]['password'] = 'yourpassword'; // Replace 'yourpassword' with your actual MySQL password
-$cfg['Servers'][$i]['controlpass'] = 'yourpassword'; // Replace 'yourpassword' with your actual MySQL password
 
+3. MySQL Not Starting: Port Conflict or Configuration Issue\
+Error Message: "Another main error after clicking on the start button of MySQL in the control panel of XAMPP is unable to start. To fix this, click on the 'Config' button and select my.ini. After this opens in Notepad, enter your MySQL password and change the port number if necessary (e.g., 3307)."\
 
-3. MySQL Not Starting: Port Conflict or Configuration Issue
-Error Message: "Another main error after clicking on the start button of MySQL in the control panel of XAMPP is unable to start. To fix this, click on the 'Config' button and select my.ini. After this opens in Notepad, enter your MySQL password and change the port number if necessary (e.g., 3307)."
-
-Solution:
-1)Open the XAMPP Control Panel.
-2)Click on the Config button next to MySQL and select my.ini.
+Solution:\
+1)Open the XAMPP Control Panel.\
+2)Click on the Config button next to MySQL and select my.ini.\
 
 In the my.ini file, find the line that specifies the port. It may look like this:
 ini code:
