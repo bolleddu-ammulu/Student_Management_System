@@ -9,19 +9,19 @@ Features:
 
 Technologies Used:
 \
-Frontend:
-1)HTML
+Frontend:\
+1)HTML\
 2)CSS
 \
-Backend:
-1)PHP
+Backend:\
+1)PHP\
 2)MySQL
-
+\
 Development Tools:
-
-1)XAMPP or similar local server environment.
+\
+1)XAMPP or similar local server environment.\
 2)phpMyAdmin for database management.
-
+\
 Steps to execute:
 1)Install XAMPP/WAMP on your PC.
 2)Start the Apache and MySQL services.
