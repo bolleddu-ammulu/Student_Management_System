@@ -34,9 +34,9 @@ Steps to execute:\
 8)Submit the form to add a student, and view the records using http://localhost/student_management_system/display_students.php.You can see the data which should present in database.\
 
 # Common Errors and Solutions for XAMPP and MySQL
-\
+
 1. Database Connection Error: Incorrect Username or Password.\
-Error Message: "You must match the username and password for connecting to the database of MySQL."\
+Error Message: "You must match the username and password for connecting to the database of MySQL."
 
 Solution:\
 1)Open your db_connect.php file.\
@@ -44,19 +44,19 @@ Solution:\
 3)Your db_connect.php should look something like this:\
 4)php code:\
 
-<?php\
-$servername = "localhost";\
-$username = "root"; // Default MySQL username\
-$password = "Your password";     // MySQL password\
-$dbname = "student_management_system";\
+<?php
+$servername = "localhost";
+$username = "root"; // Default MySQL username
+$password = "Your password";     // MySQL password
+$dbname = "student_management_system";
 
-// Create connection\
+// Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);\
 
-// Check connection\
-if ($conn->connect_error) {\
-    die("Connection failed: " . $conn->connect_error);\
-}\
+// Check connection
+if ($conn->connect_error) {
+    die("Connection failed: " . $conn->connect_error);
+}
 ?>
 \
 
