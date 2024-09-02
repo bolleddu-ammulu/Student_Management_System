@@ -33,7 +33,7 @@ Steps to execute:\
 7)Access your HTML forms by opening your web browser and navigate to http://localhost/student-management-system/.You should see the homepage of the Student Management System.\
 8)Submit the form to add a student, and view the records using http://localhost/student_management_system/display_students.php.You can see the data which should present in database.
 
-# Common Errors and Solutions for XAMPP and MySQL Which I Faced While Executing:
+# Common Errors and Solutions for XAMPP and MySQL, I Faced While Executing:
 
 1. Database Connection Error: Incorrect Username or Password.\
 Error Message: "You must match the username and password for connecting to the database of MySQL."
