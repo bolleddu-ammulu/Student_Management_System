@@ -42,7 +42,7 @@ Solution:\
 1)Open your db_connect.php file.\
 2)Ensure you have the correct MySQL username and password. By default, XAMPP uses:\
 3)Your db_connect.php should look something like this:\
-4)php code:\
+4)php code:
 
 <?php
 $servername = "localhost";
