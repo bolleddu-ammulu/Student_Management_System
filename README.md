@@ -81,12 +81,12 @@ Solution:\
 1)Open the XAMPP Control Panel.\
 2)Click on the Config button next to MySQL and select my.ini.
 
-In the my.ini file, find the line that specifies the port. It may look like this:
+In the my.ini file, find the line that specifies the port. It may look like this:\
 ini code:
 1)[mysqld]
-port=3306
-2)Change the port number if 3306 is being used by another application. For example:
+port=3306\
+2)Change the port number if 3306 is being used by another application. For example:\
 port=3307
-3)Save the my.ini file and close Notepad.
-4)Restart MySQL from the XAMPP Control Panel.
+3)Save the my.ini file and close Notepad.\
+4)Restart MySQL from the XAMPP Control Panel.\
 5)If MySQL still doesn’t start, make sure the new port is not being used by another application and check that the port in phpMyAdmin settings matches the one defined in my.ini.
