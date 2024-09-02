@@ -5,13 +5,14 @@ This project provides functionalities to add, delete, and view student informati
 Features:
 1)Add New Student: Allows users to add new student records to the database.\
 2)Delete Student: Enables users to remove student records by ID.\
-3)View Records: Provides a feature to display all student records in a table format.\
+3)View Records: Provides a feature to display all student records in a table format.
 
 Technologies Used:
-
+\
 Frontend:
 1)HTML
 2)CSS
+\
 Backend:
 1)PHP
 2)MySQL
