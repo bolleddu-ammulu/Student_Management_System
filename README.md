@@ -44,7 +44,7 @@ Solution:\
 3)Your db_connect.php should look something like this:\
 4)php code:
 
-<?php
+
 $servername = "localhost";
 $username = "root"; // Default MySQL username
 $password = "Your password";     // MySQL password
@@ -57,7 +57,7 @@ $conn = new mysqli($servername, $username, $password, $dbname);\
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
-?>
+
 
 
 2. Updating MySQL Password in phpMyAdmin Configuration.\
@@ -71,7 +71,7 @@ Solution:
 4)php code:
 \
 $cfg['Servers'][$i]['password'] = 'yourpassword'; // Replace 'yourpassword' with your actual MySQL password\
-$cfg['Servers'][$i]['controlpass'] = 'yourpassword'; // Replace 'yourpassword' with your actual MySQL password\
+$cfg['Servers'][$i]['controlpass'] = 'yourpassword'; // Replace 'yourpassword' with your actual MySQL password
 
 
 3. MySQL Not Starting: Port Conflict or Configuration Issue\
@@ -79,7 +79,7 @@ Error Message: "Another main error after clicking on the start button of MySQL i
 
 Solution:\
 1)Open the XAMPP Control Panel.\
-2)Click on the Config button next to MySQL and select my.ini.\
+2)Click on the Config button next to MySQL and select my.ini.
 
 In the my.ini file, find the line that specifies the port. It may look like this:
 ini code:
